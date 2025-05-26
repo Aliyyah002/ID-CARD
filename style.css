@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    background-color: #eaf2f8;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    /* Card Container */
+    .profile-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+    max-width: 350px;
+    text-align: center;
+    }
+    
+    /* Image */
+    .avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #5dade2;
+    object-fit: cover;
+    margin-bottom: 20px;
+    }
+    
+    /* Name and Info */
+    .details h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    }
+    
+    .details ul {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    .details ul li {
+    padding: 5px 0;
+    color: #34495e;
+    }
+    
+    .details ul li strong {
+    color: #5dade2;
+    }
+    
+    /* Button */
+    .hire-button {
+    background-color: #5dade2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    }
+    
+    .hire-button:hover {
+    background-color: #3498db;
+    }
